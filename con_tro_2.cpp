@@ -6,7 +6,6 @@ int main ()
 {
 	int i,n;  
 	int * p;
-	cout << "So phan tu ban muon nhap vao: ";
 	cin >> i;
 	p= new int[i];
 	if (p == 0)
