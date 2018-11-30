@@ -72,4 +72,18 @@ int main() {
 		sum *= i; //sum = sum + i;
 	}
 	cout << sum;
+	//Nhap vap 1 so xuat ra bang cuu chuong
+	//cua so do
+	int n;
+	cin >> n;
+	cout << "Bang cuu chuong cua " << n << " la: " << endl;
+	for(int i = 1; i <= 10; i++) {
+		cout << n << " * " << i << " = " << n * i << endl;
+	}
 }
+btvn:
+bt1: Tinh S = 1 + 1/2 + 1/3 + ... + 1/n;
+bt2: Tinh P = 1 * 1/2 * 1/3 * .... * 1/n;
+bt3: Nhap vao 1 so kiem tra so do co phai la so nguyen to
+hay khong?
+bt4: Xuat ra bang cuu chuong cua cac so tu 1 den 10
